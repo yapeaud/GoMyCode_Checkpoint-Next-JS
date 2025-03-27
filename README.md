@@ -24,13 +24,12 @@ L'objectif est de présenter mes **compétences**, mes **projets** et mes **info
    cd nom-du-projet
 
 2. **Installer les dépendances**
- ```bash
 - npm install
    ou
 - yarn install
 
 3. **Lancer le projet en mode développement**
- ```bash
+
 - npm run dev
    ou
 - yarn dev
