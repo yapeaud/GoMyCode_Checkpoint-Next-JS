@@ -1,0 +1,5 @@
+#Ignore le dossier .next
+.next
+
+#Ignore le dossier node_modules
+node_modules

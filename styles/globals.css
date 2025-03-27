@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    font-family:'Playfair Display';
+}
+
+:root{
+    --color-blue:#4a00e0;
+    --color-red:#ff0080;
+}
+
+/*SECTION HERO*/
+
+/* Style pour le badge en haut */
+.custom-badge {
+    background: linear-gradient(to right, var(--color-blue),var(--color-red));
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.custom-bg {
+    background: linear-gradient(to right, var(--color-blue),var(--color-red));
+    color: #fff;
+    padding: 5px 15px;
+    
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Style pour le texte principal avec dégradé */
+.gradient-title {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(to right, var(--color-blue),var(--color-red));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: linear-gradient(to right, var(--color-blue),var(--color-red));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Style pour le texte secondaire */
+.text-secondary-custom {
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+/* Bouton personnalisé */
+.btn-custom {
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+/* Espace autour des boutons */
+.btn-container {
+    margin-top: 20px;
+}
+.custom-card {
+    position: relative;
+    background: linear-gradient(to right, var(--color-blue),var(--color-red));
+    border-radius: 20px;
+    width: 350px;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    margin: 50px auto;
+}
+
+.custom-card img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.custom-card h3 {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* SECTION ABOUT */
+#about p{
+    max-width: 75%;
+    margin: 0 20%;
+}
+
+/*SECTION RESUME*/
+.title-experience, .h5-exp{
+    color: var(--color-blue) !important;
+    font-weight: bold;
+}
+.title-education, .h5-edu{
+    color: var(--color-red) !important;
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: var(--color-blue) !important;
+}
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/* FOOTER */
+.no-underline{
+    text-decoration: none;
+}
