@@ -24,14 +24,15 @@ L'objectif est de présenter mes **compétences**, mes **projets** et mes **info
    cd nom-du-projet
 
 2. **Installer les dépendances**
-npm install
+
+- npm install
 # ou
-yarn install
+- yarn install
 
 3. **Lancer le projet en mode développement**
-npm run dev
+- npm run dev
 # ou
-yarn dev
+- yarn dev
 
 4. **Accéder au site**
 Ouvre http://localhost:3000 dans ton navigateur.
