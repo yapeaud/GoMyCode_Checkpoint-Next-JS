@@ -26,12 +26,10 @@ L'objectif est de présenter mes **compétences**, mes **projets** et mes **info
 2. **Installer les dépendances**
 
 - npm install
-# ou
 - yarn install
 
 3. **Lancer le projet en mode développement**
 - npm run dev
-# ou
 - yarn dev
 
 4. **Accéder au site**
